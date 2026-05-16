@@ -1,0 +1,59 @@
+body{
+  background-image: url('https://freerangestock.com/sample/40045/laptop-work.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-navbar {
+  background-color: #2f3646; /* dark blue-gray */
+  padding: 14px 0;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.brand-icon {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #dcdcdc !important;
+  margin-left: 20px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #abeb62;
+  color: #0c0101 !important;
+ 
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.body-container{
+   padding: 200px 0px;
+}
+
+.button{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.buy{
+  background-color: #abeb62;
+}

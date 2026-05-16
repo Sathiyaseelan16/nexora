@@ -1,0 +1,13 @@
+.news-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn-success {
+  background-color: #7cb342;
+  border: none;
+}

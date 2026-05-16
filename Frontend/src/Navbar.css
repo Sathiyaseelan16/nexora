@@ -1,0 +1,123 @@
+.custom-navbar {
+
+  background: #1f2937;
+
+  padding: 10px 0;
+
+  margin: 0;
+
+}
+
+/* LOGO */
+
+.logo {
+
+  font-size: 28px;
+
+  font-weight: 900;
+
+  color: white !important;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+}
+
+.logo-icon {
+
+  color: #8bc34a;
+
+  font-size: 30px;
+
+}
+
+/* LINKS */
+
+.navbar-links {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+/* NAV LINKS */
+
+.nav-link {
+
+  color: white !important;
+
+  margin-left: 25px;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  position: relative;
+
+  transition: 0.3s;
+
+}
+
+/* HOVER */
+
+.nav-link:hover {
+
+  color: #8bc34a !important;
+
+}
+
+/* UNDERLINE */
+
+.nav-link::after {
+
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: -5px;
+
+  width: 0;
+
+  height: 3px;
+
+  background: #8bc34a;
+
+  transition: 0.3s;
+
+}
+
+/* SHOW UNDERLINE */
+
+.nav-link:hover::after {
+
+  width: 100%;
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 992px) {
+
+  .navbar-links {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    margin-top: 20px;
+
+  }
+
+  .nav-link {
+
+    margin: 10px 0;
+
+  }
+
+}

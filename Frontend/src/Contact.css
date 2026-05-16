@@ -1,0 +1,146 @@
+.contact-page {
+
+  min-height: 100vh;
+
+  width: 100%;
+
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 40px 20px;
+
+}
+
+.contact-card {
+
+  width: 450px;
+
+  padding: 40px;
+
+  border-radius: 25px;
+
+  background: rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  box-shadow: 0 0px 30px rgba(0,0,0,0.4);
+}
+
+.contact-title {
+
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  color: #ddd;
+}
+
+.contact-input,
+.contact-textarea {
+
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.contact-textarea {
+
+  height: 120px;
+
+  resize: none;
+}
+
+.contact-btn {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #7cb342;
+
+  color: white;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+
+  background: #689f38;
+
+  transform: translateY(-2px);
+}
+
+.contact-info {
+
+  margin-top: 25px;
+
+  text-align: center;
+
+  line-height: 2;
+}
+
+.contact-card {
+
+  background: rgba(255,255,255,0.1);
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+
+  width: 100%;
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+  .contact-card {
+
+    padding: 25px;
+
+  }
+
+}
